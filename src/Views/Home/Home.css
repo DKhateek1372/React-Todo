@@ -1,0 +1,212 @@
+@import '../../assets/css/variables.css';
+
+.intro {
+	width: 100%;
+	background-color: var(--secondary-color);
+	position: relative;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 20px;
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		transform: translate(-50%, 50%);
+		width: 200px;
+		height: 200px;
+		background: url('../../assets/images/bg.svg') no-repeat center center;
+		opacity: 0.2;
+		z-index: 1;
+	}
+
+	& .title {
+		font-size: var(--big-font-size);
+		line-height: var(--big-line-height);
+		color: var(--extra-color);
+		font-weight: bold;
+		margin: 30px 0 10px;
+	}
+
+	& .desc {
+		color: var(--white);
+		font-size: var(--h3-font-size);
+		line-height: var(--h3-line-height);
+		margin: 0 0 40px;
+		font-weight: 100;
+	}
+}
+
+
+.maindiv{
+	width: 100%;
+	background-color: var(--secondary-color);
+	position: relative;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 20px;
+	 
+	& .title {
+		font-size: var(--big-font-size);
+		line-height: var(--big-line-height);
+		color: var(--extra-color);
+		font-weight: bold;
+		margin: 30px 0 10px;
+	}
+
+	& .inputitem{
+		padding: 10px 20px;
+		width: 25%;
+		margin: 10px 0 20px 0;
+		box-sizing: border-box;
+	}
+	
+	& .Cinputl{
+		color: white;
+		
+	}
+
+	& .Cinputr{
+		color: white;
+		
+	}
+	
+	& .checkbox{
+		margin: 10px;
+		color: white;
+		font-weight: 600;
+		font-size: 18px;	
+	}
+
+	& .status{
+		margin-right: 40px;
+		font-size: 25px;
+	}
+
+	& .Cvalue{
+		margin: 10px;
+		color: white;
+		padding: 5px;
+	}
+
+	& .formerror{
+		font-size: 20px;
+		background-color:#ffffff;
+		color: #ff0000;
+	} 
+
+	& .item{
+		color: white;
+		font-size: 20px;
+	}
+	& .addbtn{
+		
+		padding: 7px 20px 10px;
+		font-size: 20px;
+		border: 1px solid #38D39F;
+		border-radius: 0px;
+		background-color:#38D39F ;
+		color: #ffffff;
+		margin: 5px 0px;
+	}
+}
+
+.combutton{
+	width: 100%;
+
+
+	 & .todobtn{
+		width: 15%;
+		padding: 10px 20px;
+		font-size: 20px;
+		border: 1px solid #38D39F;
+		border-radius: 0px;
+		background-color: #38D39F;
+		color: #ffffff;
+		margin: 5px 25px;
+	  }
+
+	  & .sortbtn{
+		width: 15%;
+		padding: 10px 20px;
+		font-size: 20px;
+		border: 1px solid #a362e0;
+		border-radius: 0px;
+		background-color: #a362e0;
+		color: #ffffff;
+		margin: 5px 25px;
+	  }
+}
+
+.datalist{
+			width: 100%;
+			background-color: var(--secondary-color);
+			position: relative;
+			text-align: center;
+			box-sizing: border-box;
+			padding: 20px;
+
+	 
+	& .title {
+		font-size: var(--big-font-size);
+		line-height: var(--big-line-height);
+		color: var(--extra-color);
+		font-weight: bold;
+		margin: 30px 0 10px;
+	}
+
+	& .myitems{
+		display: inline-flex;
+		border-bottom: 1px solid #ffffff;
+	}
+
+	& .todoitems{
+		display: inline-flex;
+		width: 100%;
+	}
+
+	& .Mylistdata{
+		text-align: center;
+		display: inline-block;
+	}
+
+	& .header{
+		color: white;
+		font-size: 20px;
+		margin:10px 50px;
+		display: inline-flex;
+		width: 100%;
+		border-bottom: 1px solid #ffffff;
+	}
+
+	& .activity{
+		width:100%;
+		text-align: center;
+		display: grid;
+		margin: 0px 50px 10px;
+	}
+
+	& .item{
+		color: white;
+		font-size: 20px;
+		margin:10px 50px;
+		width: 33.33%;
+	}
+
+	& .delbtn{
+		width: 100%;
+		padding: 10px 20px;
+		font-size: 20px;
+		border: 1px solid #ff0000;
+		border-radius: 0px;
+		background-color:#ff0000 ;
+		color: #ffffff;
+		margin: 5px 0px;
+	}
+
+
+	
+	
+}
